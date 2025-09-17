@@ -3,5 +3,5 @@
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function(){
-    return "Hola desde aqui";
-});
+    return view('admin.dashboard');
+})->name('dashboard');
